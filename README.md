@@ -7,3 +7,13 @@ based on broken PS5 APU, with 16GB GDDR6 ram (10+6)
 current driver reddit (https://www.reddit.com/r/linux4noobs/comments/1bvdfi3/bc250_driver/)
 
 modded mesa repo https://aur.archlinux.org/packages/amdonly-gaming-mesa-git
+
+bios mod https://gitlab.com/TuxThePenguin0/bc250-bios/
+
+Smokeless umaf, you can change RAM:VRAM ratio via UMA on BIOS v3.00+
+chipset > gfx Config
+integrated graphics controller -> Forces
+UMA mode -> uma specified
+
+https://github.com/DavidS95/Smokeless_UMAF
+
