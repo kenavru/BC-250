@@ -14,6 +14,9 @@ Smokeless umaf, you can change RAM:VRAM ratio via UMA on BIOS v3.00+
 chipset > gfx Config
 integrated graphics controller -> Forces
 UMA mode -> uma specified
-
 https://github.com/DavidS95/Smokeless_UMAF
+-- but there is no need to use it.
 
+also to flash bios just use flashrom under any os, its installed by default mostly.
+sudo flashrom -p internal -r backup.bin
+sudo flashrom -p internal -w newbios.bin
